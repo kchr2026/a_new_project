@@ -1,0 +1,47 @@
+/* ===== CSS Reset (minimal, not insane) ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ===== Base document setup ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ===== Body defaults ===== */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Ubuntu, Cantarell, "Helvetica Neue",
+               Arial, sans-serif;
+
+  line-height: 1.5;
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+/* ===== Media defaults ===== */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== Links ===== */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== Buttons & inputs ===== */
+button, input, textarea, select {
+  font: inherit;
+}
+
+/* ===== Utility ===== */
+.hidden {
+  display: none;
+}
