@@ -11,6 +11,17 @@ html, body {
   padding: 0;
   height: 100%;
 }
+.move-btn {
+  position: relative;
+  transition: transform 0.2s ease;
+}
+.move-btn:active {
+  transform: translateX(200px);
+}
+
+.move-btn:active {
+  transform: translateX(200px);
+}
 
 /* ===== Body defaults ===== */
 body {
